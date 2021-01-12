@@ -25,6 +25,7 @@ artifacts:
       artifact1:
         files:
           - ./scripts/*.sh
+		name: scripts
         discard-paths: no
 cache:
   paths:
