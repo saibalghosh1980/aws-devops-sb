@@ -18,6 +18,7 @@ phases:
 artifacts:
   files:
     - ./awssbdemo/target/*.jar
+	- ./awssbdemo/target/surefire-reports/*.xml
   discard-paths: yes
 cache:
   paths:
