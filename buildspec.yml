@@ -19,7 +19,7 @@ artifacts:
   files:
     - ./awssbdemo/target/*.jar
     - ./awssbdemo/target/surefire-reports/*.xml
-	- ./appspec.xml
+    - ./appspec.yml
   discard-paths: yes
   secondary-artifacts:
       artifact1:
