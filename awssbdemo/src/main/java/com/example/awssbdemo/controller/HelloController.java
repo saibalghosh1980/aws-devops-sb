@@ -10,7 +10,7 @@ public class HelloController {
 	@GetMapping(value = "/hello/{name}")
 	public String sayHello(@PathVariable("name") String name) {
 		
-		return "Hello "+name.toUpperCase();
+		return "Hello :"+name.toUpperCase();
 	}
 
 }
