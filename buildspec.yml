@@ -14,7 +14,7 @@ phases:
   post_build:
     commands:
       - echo Entered the post_build phase...
-      - ls -lart
+      - ls -lart ./awssbdemo/target/
 artifacts:
   files:
     - ./awssbdemo/target/*.jar
