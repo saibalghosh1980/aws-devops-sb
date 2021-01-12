@@ -1,5 +1,7 @@
 #!/bin/bash
-isExistApp = `pgrep java`
-if [[ -n  $isExistApp ]]; then
-    service httpd stop        
-fi
+# Kill Java process
+
+# Determine the pid
+PID=`ps -C java -o pid=`
+
+kill -9 $PID
