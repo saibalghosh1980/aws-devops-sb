@@ -1,2 +1,2 @@
 #!/bin/bash
-java -jar *.jar
+java -jar /home/ec2-user/application/awssbdemo-0.0.1-SNAPSHOT.jar
