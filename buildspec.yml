@@ -19,7 +19,13 @@ artifacts:
   files:
     - ./awssbdemo/target/*.jar
     - ./awssbdemo/target/surefire-reports/*.xml
+	- ./appspec.xml
   discard-paths: yes
+  secondary-artifacts:
+      artifact1:
+        files:
+          - ./scripts/*.sh
+        discard-paths: no
 cache:
   paths:
     - '/root/.m2/**/*'
