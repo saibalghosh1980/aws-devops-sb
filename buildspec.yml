@@ -13,8 +13,8 @@ phases:
       - mvn clean install test surefire-report:report -f ./awssbdemo/pom.xml
   post_build:
     commands:
-      - echo Build completed
-	  - ls -lart ./awssbdemo/target
+      - echo Entered the post_build phase...
+      - ls -lart
 artifacts:
   files:
     - ./awssbdemo/target/*.jar
