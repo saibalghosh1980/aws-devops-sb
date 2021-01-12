@@ -4,5 +4,5 @@
 isExistApp = `pgrep java`
 if [[ -n  $isExistApp ]]; then
     PID=`ps -C java -o pid=`
-    kill -9 $PID || true
+    kill -9 $PID
 fi
